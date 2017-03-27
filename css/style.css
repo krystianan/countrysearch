@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+	box-sizing: border-box
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background: #e0dbdb;
+}
+.header {
+	height: 60vh;
+	background-image: url('https://static.pexels.com/photos/269850/pexels-photo-269850.jpeg');
+    background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.header h1 {
+	margin: 0;
+	padding: 100px 0;
+	font-size: 60px;
+}
+input {
+    display: block;
+    height: 55px;
+    width: 250px;
+    margin: 20px auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+button {
+    background-color: #16a085;
+    border: 2px solid #fff;
+    padding:10px 20px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #1abc9c;
+}
+
+.country-box {
+	width: 600px;
+	margin: 10px auto;
+	background-color: #fff;
+}
+.country-box h1 {
+	padding-left: 55px;
+}
+.head-text {
+    margin: 10px 0 10px 35px;
+    font-size: 18px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+.body-text {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    padding-bottom: 5px;
+    overflow: auto;
+    border-bottom: 1px dashed rgba(0,0,0, 0.3);
+}
+
+@media (max-width: 767px){ 
+    .country-box{width: 100%;}
+    .head-text {width: 50%;}
+    .body-text {width: 50%;}
+    
+    
+    .header {
+        height: 250px;
+        width: 100%;
+    }
+    .header h1 {
+        font-size: 15px;
+        padding: 40px;
+    }
+    input {
+        width: 200px;
+        height: 20px;
+    }
+    button {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .country-box h1 {
+        padding:14px;
+        border-bottom: 1px dotted #000;
+        text-align: center;
+    }
+    
+    .head-text {
+        text-align: center;
+        width: 80%;
+        border: none;
+        
+    }
+    .body-text{
+       text-align: center;
+        padding: 10xp;
+        width: 94%;
+        background-color: #95a5a6;
+        overflow: auto;
+        border: none;
+    }
+}
+
